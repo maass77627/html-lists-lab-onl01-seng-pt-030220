@@ -164,10 +164,12 @@ following example will be displayed the same as the previous:
 <h3>Top 5 Favorite Foods</h3>
 <ol>
   <li>Grilled Cheese
+    <ol>
   <li>Sushi
   <li>Cheese and crackers
   <li>Cheese soup
   <li>Nacho Cheese French Fries
+  </ol>
 </ol>
 ```
 
