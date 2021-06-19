@@ -101,7 +101,7 @@ us to easily display related and nested content in a readable format.
 
 The first part of this challenge is to make the first 2 tests pass by:
 
-1. Creating an unordered list 
+1. Creating an unordered list
 2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
 
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
@@ -164,10 +164,12 @@ following example will be displayed the same as the previous:
 <h3>Top 5 Favorite Foods</h3>
 <ol>
   <li>Grilled Cheese
+    <ol>
   <li>Sushi
   <li>Cheese and crackers
   <li>Cheese soup
   <li>Nacho Cheese French Fries
+  </ol>
 </ol>
 ```
 
@@ -175,7 +177,7 @@ following example will be displayed the same as the previous:
 
 To complete the challenge write the necessary HTML to pass the tests:
 
-3. Create an ordered list 
+3. Create an ordered list
 4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
@@ -187,7 +189,7 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 fry for 2 minutes`
 
 ***
-Once you've written an ordered list that displays these 5 steps correctly, run `learn` 
+Once you've written an ordered list that displays these 5 steps correctly, run `learn`
 to see the tests pass.
 ***
 
@@ -195,7 +197,7 @@ to see the tests pass.
 
 Lists in HTML are useful for organizing related content. In basic html, they're
 our go-to way to indicate that content is related.  Using unordered
-lists is useful for more than just listing favorite foods.  For example, we can 
+lists is useful for more than just listing favorite foods.  For example, we can
 use list elements to organize navigation links, like in a menu bar. With styling,
 we can remove the bullets, make items line up horizontally, and make the list 'look good'.
 In our HTML, the list will be organized and easy to read.
